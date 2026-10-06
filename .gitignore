@@ -1,0 +1,20 @@
+# Runtime data: cloned/uploaded repositories, parse caches, registry
+data/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / frontend build output
+frontend/node_modules/
+frontend/dist/
+
+# Generated verification screenshots
+*_screenshot.png
+
+# Packaging artifact
+rat-submission.zip
+
+# IDE markers
+.aicoding-chat-workspace
